@@ -1,0 +1,80 @@
+/* Global Styles - Dark & Dark Green Theme */
+body {
+    background-color: #0d1b0f; /* Deep dark green */
+    color: #d4edda; /* Light green text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styling */
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Form Styling */
+form {
+    background-color: #132a13; /* Dark green */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.3);
+}
+
+form label {
+    color: #b5e48c; /* Light green */
+    font-weight: bold;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #4caf50;
+    border-radius: 5px;
+    background-color: #0d2818; /* Darker green */
+    color: #d4edda; /* Light green */
+}
+
+/* Buttons */
+button {
+    background-color: #1b4332; /* Dark green */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4caf50; /* Brighter green */
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #0f3d1c; /* Darker green */
+}
+
+th, td {
+    border: 1px solid #4caf50;
+    padding: 10px;
+    text-align: left;
+    color: #b5e48c;
+}
+
+th {
+    background-color: #14532d;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
